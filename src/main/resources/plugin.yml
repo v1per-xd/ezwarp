@@ -1,0 +1,25 @@
+name: EZWarp
+version: '1.0'
+main: xd.viper.ezwarp.Main
+api-version: '1.20'
+commands:
+  ezwarp:
+    description: ezwarp
+    usage: /ezwarp <argument>
+    permission: ezwarp.ezwarp
+  setwarp:
+    description: setwarp
+    usage: /setwarp <name>
+    permission: ezwarp.setwarp
+  delwarp:
+    description: delwarp
+    usage: /delwarp <name>
+    permission: ezwarp.delwarp
+  warp:
+    description: warp
+    usage: /warp <name>
+    permission: ezwarp.warp
+  warps:
+    description: warps
+    usage: /warps
+    permission: ezwarp.warps
